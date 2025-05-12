@@ -7,24 +7,91 @@
 </head>
 <body>
     <header>
-        <div>
-            <h1 id="unSaludo">Hola!</h1>
-        </div>
-
+        <h1 id = "unSaludo">Bienvenido a la práctica de HTML con JavaScript!</h1>
+        <nav>
+            <ul class="listaDesordenada">
+                <li><a href="#primerSubtitulo">Primer Título</a></li>
+                <li><a href="#segundoSubtitulo">Segundo Título</a></li>
+                <li><a href="#tercerSubtitulo">Tercer Título</a></li>
+                <li><a href="#cuartoSubtitulo">Cuarto Título</a></li>
+                <li><a href="botonRojo">Peligro!</a></li>
+                <li><a href="#miFormulario">Contactanos</a></li>
+            </ul>
+        </nav>
+        <button id="cambiarColor">Cambiar color de fondo</button>
     </header>
 
     <main>
+        <h2 class = "subtitulo" id="primerSubtitulo">Acá hay un subtítulo</h2>
+        <div>
+        <p class = "parrafo">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore deleniti exercitationem odit. Quasi consectetur reprehenderit tempore sed ipsa nulla harum aliquid, recusandae ducimus eum totam cum similique amet sit repudiandae?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, consectetur minus! Ipsam ipsum distinctio facere accusantium, ea dolor porro! Quis dolorum officiis eligendi facere! Consequuntur dolores nulla accusantium aperiam aspernatur.
+        </p>
+        <p class = "parrafo">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident animi corporis iusto debitis, voluptatem quam, dicta numquam nostrum quasi quia id, molestias aliquid consequatur vero atque rerum ipsam harum saepe?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rem, qui quo blanditiis eius obcaecati voluptatem officiis temporibus soluta non magni excepturi. Veniam ab ea asperiores et eveniet dolor ratione!
+        </p>
+        </div>
+
+        <br>
+        <button class="boton">Haz click aquí</button>
+        <br>
+        <br>
+        <hr>
+        <div>
+            <h2 class = "subtitulo" id="segundoSubtitulo">Acá hay un segundo subtítulo</h2>
+            <img src="https://midu.dev/images/wallpapers/una-taza-de-javascript.png" alt="JavaScript"   width="600" class="imagen">
+            <p class="parrafo">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt cupiditate, modi optio id inventore iusto enim ipsum in quis ipsam ea vel atque blanditiis cumque! Voluptatibus iure commodi quibusdam earum?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo unde necessitatibus ex tenetur ipsum! Totam, perspiciatis, consequuntur tenetur sequi corrupti minus, quae distinctio maiores voluptatibus officia cum placeat laborum voluptate?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt maiores illo placeat itaque dolorem veniam aperiam sit. Omnis error minus veniam aperiam assumenda consectetur ab dolores non, ipsam aliquam ducimus?<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ex veniam necessitatibus numquam in fugit doloribus illum voluptatem reiciendis eveniet. Animi libero sunt eveniet quas deleniti nobis impedit cum explicabo!
+            </p>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h2 class = "subtitulo" id="tercerSubtitulo">Acá hay tercer subtítulo</h2>
+            <div>
+            <p class = "parrafo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore deleniti exercitationem odit. Quasi consectetur reprehenderit tempore sed ipsa nulla harum aliquid, recusandae ducimus eum totam cum similique amet sit repudiandae?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, consectetur minus! Ipsam ipsum distinctio facere accusantium, ea dolor porro! Quis dolorum officiis eligendi facere! Consequuntur dolores nulla accusantium aperiam aspernatur.
+            </p>
+            <p class = "parrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident animi corporis iusto debitis, voluptatem quam, dicta numquam nostrum quasi quia id, molestias aliquid consequatur vero atque rerum ipsam harum saepe?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rem, qui quo blanditiis eius obcaecati voluptatem officiis temporibus soluta non magni excepturi. Veniam ab ea asperiores et eveniet dolor ratione!
+            </p>
+        </div>
+
+        <hr>
+        <br>
+        <div>
+            <h2 class = "subtitulo" id="cuartoSubtitulo">Acá hay cuarto subtítulo</h2>
+            <h4>No toques el botón rojo</h4>
+            <img id="botonRojo" src="images\png-clipart-push-button-red-reset-button-hit-the-button-blue-photography.png" alt="boton rojo" width="300">
+            <p class="parrafo">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus recusandae, libero, architecto reiciendis quia, aut dolores illum eveniet facere pariatur quasi ea doloremque culpa minima placeat doloribus dicta neque iusto.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae illum dolores sint, enim voluptate porro doloremque tempora tempore ipsum rerum atque consequatur animi aliquid nam repudiandae sunt debitis error inventore.
+            </p>
+            <p class="parrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero reprehenderit laboriosam atque sequi ut illo magnam explicabo unde, ratione dignissimos, eum labore amet fugiat, iusto quos obcaecati reiciendis maiores nisi.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, earum expedita excepturi maiores praesentium sequi facere porro molestiae accusamus tempore inventore sint quo necessitatibus nihil aliquid tempora unde dolore nobis.
+            </p>
+           
+        </div>
+    </main>
+    <br><br><br><br>
+    <hr>
+    <footer>
+        <h3>Dejanos tu contacto</h3>
         <form action="" id = "miFormulario">
             <input type="text" id = "nombre" placeholder= "Nombre"><br><br>
             <input type="email" id = "email" placeholder="Email"><br><br>
             <button type = "submit">Enviar</button>
 
         </form>
-
-    </main>
-
-    <footer>
-
+        <br><br><br>
     </footer>
 
     <script src="app.js"></script>
